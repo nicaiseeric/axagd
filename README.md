@@ -4,13 +4,12 @@ Using coins of values 1 and 2, we count all possible ways to make changes from a
 The solution is based on scala tail recursion.
 
 1. Example: Count all combinations
+⋅⋅⋅ Usage
 ```scala
 val n5_count = combiFun(5)
 n5_count = 8
 ```
-
-
-Using 1 and 2, there is 8 ways to decompose the number 5 as following:
+⋅⋅⋅ Using 1 and 2, there is 8 ways to decompose the number 5 as following:
 {
     1+1+1+1+1
     1+1+1+2
